@@ -6,7 +6,7 @@ object q1 extends App{
     var result:Double=volume(r);
     printvalue(result);
 
-    def volume(r:Double):Double=3*r*r*r*math.Pi/4;
+    def volume(r:Double):Double=4*r*r*r*math.Pi/3;
     
     def printvalue(result:Double)={
       printf("\nVolume of the the sphere is:%f",result);
